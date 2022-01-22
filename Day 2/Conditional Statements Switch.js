@@ -1,7 +1,6 @@
 function getLetter(s) {
     let letter;
     // Write your code here
-    
     switch (s.charAt(0))
         {
             case ( 'a' || 'e' || 'o' || 'i' || 'u'):
@@ -19,8 +18,6 @@ function getLetter(s) {
             case ('z' || 'n' || 'p' || 'q' || 'r' || 's' || 't' || 'v' || 'w' || 'x' || 'y' ):
                 letter = 'D';
                 
-        }
-    
-    
+        }    
     return letter;
 }
